@@ -54,14 +54,14 @@ function titleCase(str) {
   key, First_Name, Last_Nmae, Address, City
   value = titleCase(value);
   
-  */ 
-     switch(key){
+    */ 
+      switch(key){
       case "First_Name":
-          case "Last_Name":
-              case "Address":
-                  case "City":
-          value = titleCase(value);
-      break;
+      case "Last_Name":
+      case "Address":
+      case "City":
+      value = titleCase(value);
+        break;
   } 
         
       //will replace underscore with space
